@@ -11,7 +11,10 @@ on:
 
 jobs:
   build:
-
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./MyFirstWebApplication
     runs-on: ubuntu-latest
 
     steps:
