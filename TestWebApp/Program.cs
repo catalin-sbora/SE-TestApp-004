@@ -5,7 +5,7 @@ namespace TestWebApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            hjashdjashdjasd asda sdasdasd;
             // Add services to the container.
             builder.Services.AddRazorPages();
 
